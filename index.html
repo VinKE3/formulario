@@ -37,7 +37,7 @@
             >
               <div class="flex min-w-min md:w-2/5">
                 <label
-                  htmlFor="clienteTelefono"
+                  for="cama"
                   class="px-3 inline-flex items-center text-mini font-semibold border border-r-0 rounded-l-md bg-label border-gray-600 text-light focus:outline-none"
                 >
                   Cama
@@ -45,6 +45,8 @@
                 <input
                   class="block w-full flex-1 py-1.5 px-2.5 text-mini border rounded-none bg-input border-gray-600 placeholder-gray-400 text-light"
                   type="text"
+                  name="cama"
+                  id="cama"
                 />
                 <input
                   class="block w-full flex-1 py-1.5 px-2.5 text-mini border rounded-none rounded-r-lg bg-input border-gray-600 placeholder-gray-400 text-light"
@@ -53,7 +55,7 @@
               </div>
               <div class="flex min-w-min md:w-2/5">
                 <label
-                  htmlFor="clienteTelefono"
+                  for="edad"
                   class="px-3 inline-flex items-center text-mini font-semibold border border-r-0 rounded-l-md bg-label border-gray-600 text-light focus:outline-none"
                 >
                   Edad
@@ -61,11 +63,13 @@
                 <input
                   class="block w-full flex-1 py-1.5 px-2.5 text-mini border rounded-none rounded-r-lg bg-input border-gray-600 placeholder-gray-400 text-light"
                   type="text"
+                  name="edad"
+                  id="edad"
                 />
               </div>
               <div class="flex w-full min-w-min">
                 <label
-                  htmlFor="clienteTelefono"
+                  for="fechaIngreso"
                   class="px-3 inline-flex items-center text-mini font-semibold border border-r-0 rounded-l-md bg-label border-gray-600 text-light focus:outline-none"
                 >
                   Fecha Ingreso
@@ -73,17 +77,21 @@
                 <input
                   class="block w-full flex-1 py-1.5 px-2.5 text-mini border rounded-none rounded-r-lg bg-input border-gray-600 placeholder-gray-400 text-light"
                   type="date"
+                  name="fechaIngreso"
+                  id="fechaIngreso"
                 />
               </div>
               <div class="flex w-full min-w-min">
                 <label
-                  htmlFor="clienteTelefono"
+                  for="obraSocial"
                   class="px-3 inline-flex items-center text-mini font-semibold border border-r-0 rounded-l-md bg-label border-gray-600 text-light focus:outline-none"
                 >
                   Obra Social
                 </label>
                 <select
                   class="block w-full flex-1 py-1.5 px-2.5 text-mini border rounded-none rounded-r-lg bg-input border-gray-600 placeholder-gray-400 text-light"
+                  name="obraSocial"
+                  id="obraSocial"
                 >
                   <option value="1">OSDE</option>
                   <option value="2">Swiss Medical</option>
@@ -95,7 +103,7 @@
             >
               <div class="flex w-full min-w-min">
                 <label
-                  htmlFor="clienteTelefono"
+                  for="nombre"
                   class="px-3 inline-flex items-center text-mini font-semibold border border-r-0 rounded-l-md bg-label border-gray-600 text-light focus:outline-none"
                 >
                   Nombre
@@ -103,11 +111,13 @@
                 <input
                   class="block w-full flex-1 py-1.5 px-2.5 text-mini border rounded-none rounded-r-lg bg-input border-gray-600 placeholder-gray-400 text-light"
                   type="text"
+                  name="nombre"
+                  id="nombre"
                 />
               </div>
               <div class="flex w-full min-w-min">
                 <label
-                  htmlFor="clienteTelefono"
+                  for="motivoIngreso"
                   class="px-3 inline-flex items-center text-mini font-semibold border border-r-0 rounded-l-md bg-label border-gray-600 text-light focus:outline-none"
                 >
                   Motivo Ingreso
@@ -115,6 +125,8 @@
                 <input
                   class="block w-full flex-1 py-1.5 px-2.5 text-mini border rounded-none rounded-r-lg bg-input border-gray-600 placeholder-gray-400 text-light"
                   type="text"
+                  name="motivoIngreso"
+                  id="motivoIngreso"
                 />
               </div>
             </div>
@@ -127,14 +139,14 @@
                 >
                   <input
                     checked
-                    id="checked-checkbox"
+                    id="hta"
+                    name="hta"
                     type="checkbox"
-                    value=""
                     class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                   />
                 </div>
                 <label
-                  htmlFor="editarCargo"
+                  for="hta"
                   class="w-full flex-1 inline-flex items-center py-1.5 pr-2.5 pl-1 text-mini font-semibold leading-normal rounded-r-lg border border-l-0 border-gray-600 bg-disabled text-light cursor-pointer"
                 >
                   HTA
@@ -146,14 +158,15 @@
                 >
                   <input
                     checked
-                    id="checked-checkbox"
+                    id="dbt"
+                    name="dbt"
                     type="checkbox"
                     value=""
                     class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                   />
                 </div>
                 <label
-                  htmlFor="editarCargo"
+                  for="dbt"
                   class="w-full flex-1 inline-flex items-center py-1.5 pr-2.5 pl-1 text-mini font-semibold leading-normal rounded-r-lg border border-l-0 border-gray-600 bg-disabled text-light cursor-pointer"
                 >
                   DBT
@@ -172,7 +185,7 @@
                   />
                 </div>
                 <label
-                  htmlFor="editarCargo"
+                  for="irc"
                   class="w-full flex-1 inline-flex items-center py-1.5 pr-2.5 pl-1 text-mini font-semibold leading-normal rounded-none border border-l-0 border-gray-600 bg-disabled text-light cursor-pointer"
                 >
                   IRC
@@ -180,6 +193,8 @@
                 <input
                   class="block w-20 flex-1 py-1.5 px-2.5 text-mini border rounded-none bg-input border-gray-600 placeholder-gray-400 text-light"
                   type="text"
+                  name="irc"
+                  id="irc"
                 />
               </div>
               <div class="flex min-w-min w-44">
@@ -188,14 +203,15 @@
                 >
                   <input
                     checked
-                    id="checked-checkbox"
+                    id="tbq"
+                    name="tbq"
                     type="checkbox"
                     value=""
                     class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                   />
                 </div>
                 <label
-                  htmlFor="editarCargo"
+                  for="tbq"
                   class="w-full flex-1 inline-flex items-center py-1.5 pr-2.5 pl-1 text-mini font-semibold leading-normal rounded-none border border-l-0 border-gray-600 bg-disabled text-light cursor-pointer"
                 >
                   TBQ
@@ -207,7 +223,7 @@
               </div>
               <div class="flex w-full min-w-min">
                 <label
-                  htmlFor="clienteTelefono"
+                  for="alergia"
                   class="px-3 inline-flex items-center text-mini font-semibold border border-r-0 rounded-l-md bg-label border-gray-600 text-light focus:outline-none"
                 >
                   Alergia
@@ -215,17 +231,19 @@
                 <input
                   class="block w-full flex-1 py-1.5 px-2.5 text-mini border rounded-none rounded-r-lg bg-input border-gray-600 placeholder-gray-400 text-light"
                   type="text"
+                  name="alergia"
+                  id="alergia"
                 />
               </div>
             </div>
             <div class="mb-4">
               <label
-                for="message"
+                for="antecedentes"
                 class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                 >Antecedentes</label
               >
               <textarea
-                id="message"
+                id="antecedentes"
                 rows="6"
                 class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                 placeholder="Redactar Antecedentes"
@@ -253,14 +271,14 @@
                 >
                   <input
                     checked
-                    id="checked-checkbox"
+                    id="alta"
                     type="checkbox"
                     value=""
                     class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                   />
                 </div>
                 <label
-                  htmlFor="editarCargo"
+                  for="alta"
                   class="w-full flex-1 inline-flex items-center py-1.5 pr-2.5 pl-1 text-mini font-semibold leading-normal rounded-r-lg border border-l-0 border-gray-600 bg-disabled text-light cursor-pointer"
                 >
                   Alta
@@ -272,14 +290,14 @@
                 >
                   <input
                     checked
-                    id="checked-checkbox"
+                    id="obito"
                     type="checkbox"
                     value=""
                     class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                   />
                 </div>
                 <label
-                  htmlFor="editarCargo"
+                  for="obito"
                   class="w-full flex-1 inline-flex items-center py-1.5 pr-2.5 pl-1 text-mini font-semibold leading-normal rounded-r-lg border border-l-0 border-gray-600 bg-disabled text-light cursor-pointer"
                 >
                   Obito
@@ -291,14 +309,14 @@
                 >
                   <input
                     checked
-                    id="checked-checkbox"
+                    id="derivacion"
                     type="checkbox"
                     value=""
                     class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                   />
                 </div>
                 <label
-                  htmlFor="editarCargo"
+                  for="derivacion"
                   class="w-full flex-1 inline-flex items-center py-1.5 pr-2.5 pl-1 text-mini font-semibold leading-normal rounded-r-lg border border-l-0 border-gray-600 bg-disabled text-light cursor-pointer"
                 >
                   Derivación
@@ -310,14 +328,14 @@
                 >
                   <input
                     checked
-                    id="checked-checkbox"
+                    id="pase"
                     type="checkbox"
                     value=""
                     class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                   />
                 </div>
                 <label
-                  htmlFor="editarCargo"
+                  for="pase"
                   class="w-full flex-1 inline-flex items-center py-1.5 pr-2.5 pl-1 text-mini font-semibold leading-normal rounded-none border border-l-0 border-gray-600 bg-disabled text-light cursor-pointer"
                 >
                   Pase
@@ -331,7 +349,7 @@
               </div>
               <div class="flex w-42 min-w-min">
                 <label
-                  htmlFor="clienteTelefono"
+                  for="fechaEgreso"
                   class="px-3 inline-flex items-center text-mini font-semibold border border-r-0 rounded-l-md bg-label border-gray-600 text-light focus:outline-none"
                 >
                   Fecha Egreso
@@ -339,6 +357,7 @@
                 <input
                   class="block w-full flex-1 py-1.5 px-2.5 text-mini border rounded-none rounded-r-lg bg-input border-gray-600 placeholder-gray-400 text-light"
                   type="date"
+                  id="fechaEgreso"
                 />
               </div>
             </div>
@@ -351,7 +370,7 @@
             >
               <div class="flex w-full min-w-min">
                 <label
-                  htmlFor="clienteTelefono"
+                  for="traqueostomia"
                   class="px-3 inline-flex items-center text-mini font-semibold border border-r-0 rounded-l-md bg-label border-gray-600 text-light focus:outline-none"
                 >
                   Traqueostomia
@@ -359,11 +378,12 @@
                 <input
                   class="block w-full flex-1 py-1.5 px-2.5 text-mini border rounded-none rounded-r-lg bg-input border-gray-600 placeholder-gray-400 text-light"
                   type="text"
+                  id="traqueostomia"
                 />
               </div>
               <div class="flex w-full min-w-min">
                 <label
-                  htmlFor="clienteTelefono"
+                  for="viaCentral"
                   class="px-3 inline-flex items-center text-mini font-semibold border border-r-0 rounded-l-md bg-label border-gray-600 text-light focus:outline-none"
                 >
                   Via Central
@@ -371,6 +391,7 @@
                 <input
                   class="block w-full flex-1 py-1.5 px-2.5 text-mini border rounded-none bg-input border-gray-600 placeholder-gray-400 text-light"
                   type="text"
+                  id="viaCentral"
                 />
                 <input
                   class="block w-full flex-1 py-1.5 px-2.5 text-mini border rounded-none rounded-r-lg bg-input border-gray-600 placeholder-gray-400 text-light"
@@ -383,7 +404,7 @@
             >
               <div class="flex min-w-min md:w-2/5">
                 <label
-                  htmlFor="clienteTelefono"
+                  for="hto"
                   class="px-3 inline-flex items-center text-mini font-semibold border border-r-0 rounded-l-md bg-label border-gray-600 text-light focus:outline-none"
                 >
                   Hto
@@ -391,11 +412,12 @@
                 <input
                   class="block w-full flex-1 py-1.5 px-2.5 text-mini border rounded-none rounded-r-lg bg-input border-gray-600 placeholder-gray-400 text-light"
                   type="text"
+                  id="hto"
                 />
               </div>
               <div class="flex min-w-min md:w-2/5">
                 <label
-                  htmlFor="clienteTelefono"
+                  for="gb"
                   class="px-3 inline-flex items-center text-mini font-semibold border border-r-0 rounded-l-md bg-label border-gray-600 text-light focus:outline-none"
                 >
                   Gb
@@ -403,11 +425,12 @@
                 <input
                   class="block w-full flex-1 py-1.5 px-2.5 text-mini border rounded-none rounded-r-lg bg-input border-gray-600 placeholder-gray-400 text-light"
                   type="text"
+                  id="gb"
                 />
               </div>
               <div class="flex min-w-min md:w-2/5">
                 <label
-                  htmlFor="clienteTelefono"
+                  for="plq"
                   class="px-3 inline-flex items-center text-mini font-semibold border border-r-0 rounded-l-md bg-label border-gray-600 text-light focus:outline-none"
                 >
                   Plq
@@ -415,11 +438,12 @@
                 <input
                   class="block w-full flex-1 py-1.5 px-2.5 text-mini border rounded-none rounded-r-lg bg-input border-gray-600 placeholder-gray-400 text-light"
                   type="text"
+                  id="plq"
                 />
               </div>
               <div class="flex min-w-min md:w-2/5">
                 <label
-                  htmlFor="clienteTelefono"
+                  for="urea"
                   class="px-3 inline-flex items-center text-mini font-semibold border border-r-0 rounded-l-md bg-label border-gray-600 text-light focus:outline-none"
                 >
                   Urea
@@ -427,11 +451,12 @@
                 <input
                   class="block w-full flex-1 py-1.5 px-2.5 text-mini border rounded-none rounded-r-lg bg-input border-gray-600 placeholder-gray-400 text-light"
                   type="text"
+                  id="urea"
                 />
               </div>
               <div class="flex min-w-min md:w-2/5">
                 <label
-                  htmlFor="clienteTelefono"
+                  for="cr"
                   class="px-3 inline-flex items-center text-mini font-semibold border border-r-0 rounded-l-md bg-label border-gray-600 text-light focus:outline-none"
                 >
                   Cr
@@ -439,6 +464,7 @@
                 <input
                   class="block w-full flex-1 py-1.5 px-2.5 text-mini border rounded-none rounded-r-lg bg-input border-gray-600 placeholder-gray-400 text-light"
                   type="text"
+                  id="cr"
                 />
               </div>
             </div>
@@ -447,7 +473,7 @@
             >
               <div class="flex w-full min-w-min">
                 <label
-                  htmlFor="clienteTelefono"
+                  for="iq"
                   class="px-3 inline-flex items-center text-mini font-semibold border border-r-0 rounded-l-md bg-label border-gray-600 text-light focus:outline-none"
                 >
                   IQ
@@ -455,11 +481,12 @@
                 <input
                   class="block w-full flex-1 py-1.5 px-2.5 text-mini border rounded-none rounded-r-lg bg-input border-gray-600 placeholder-gray-400 text-light"
                   type="text"
+                  id="iq"
                 />
               </div>
               <div class="flex w-full min-w-min">
                 <label
-                  htmlFor="clienteTelefono"
+                  for="eab"
                   class="px-3 inline-flex items-center text-mini font-semibold border border-r-0 rounded-l-md bg-label border-gray-600 text-light focus:outline-none"
                 >
                   EAB
@@ -467,11 +494,12 @@
                 <input
                   class="block w-full flex-1 py-1.5 px-2.5 text-mini border rounded-none rounded-r-lg bg-input border-gray-600 placeholder-gray-400 text-light"
                   type="text"
+                  id="eab"
                 />
               </div>
               <div class="flex w-full min-w-min">
                 <label
-                  htmlFor="clienteTelefono"
+                  for="otro"
                   class="px-3 inline-flex items-center text-mini font-semibold border border-r-0 rounded-l-md bg-label border-gray-600 text-light focus:outline-none"
                 >
                   Otro
@@ -479,12 +507,13 @@
                 <input
                   class="block w-full flex-1 py-1.5 px-2.5 text-mini border rounded-none rounded-r-lg bg-input border-gray-600 placeholder-gray-400 text-light"
                   type="text"
+                  id="otro"
                 />
               </div>
             </div>
             <div class="flex w-full min-w-min pb-4">
               <label
-                htmlFor="clienteTelefono"
+                for="cultivos"
                 class="px-3 inline-flex items-center text-mini font-semibold border border-r-0 rounded-l-md bg-label border-gray-600 text-light focus:outline-none"
               >
                 Cultivos
@@ -492,6 +521,7 @@
               <input
                 class="block w-full flex-1 py-1.5 px-2.5 text-mini border rounded-none rounded-r-lg bg-input border-gray-600 placeholder-gray-400 text-light"
                 type="text"
+                id="cultivos"
               />
             </div>
             <div class="flex w-full min-w-min pb-4">
@@ -506,7 +536,7 @@
               <div class="flex min-w-min md:w-1/2">
                 <div class="flex w-full min-w-min">
                   <label
-                    htmlFor="Tratamientos"
+                    for="tratamientos"
                     class="px-3 inline-flex items-center text-mini font-semibold border rounded-l-md bg-label border-gray-600 text-light focus:outline-none"
                   >
                     Tratamiento
@@ -514,7 +544,7 @@
                 </div>
                 <div class="flex w-full min-w-min">
                   <label
-                    htmlFor="clienteTelefono"
+                    for="php"
                     class="px-3 inline-flex items-center text-mini font-semibold border border-r-0 rounded-l-md bg-label border-gray-600 text-light focus:outline-none"
                   >
                     PHP
@@ -522,6 +552,7 @@
                   <input
                     class="block w-full flex-1 py-1.5 px-2.5 text-mini border rounded-none bg-input border-gray-600 placeholder-gray-400 text-light"
                     type="text"
+                    id="php"
                   />
                 </div>
               </div>
@@ -537,6 +568,7 @@
               <input
                 class="block w-full flex-1 py-1.5 px-2.5 text-mini border rounded-none rounded-l-lg bg-input border-gray-600 placeholder-gray-400 text-light"
                 type="text"
+                id="tratamientos"
               />
               <input
                 class="block w-full flex-1 py-1.5 px-2.5 text-mini border rounded-none rounded-r-lg bg-input border-gray-600 placeholder-gray-400 text-light"
@@ -558,7 +590,7 @@
             >
               <div class="flex min-w-min md:w-1/2">
                 <label
-                  htmlFor="clienteTelefono"
+                  for="atb"
                   class="px-3 inline-flex items-center text-mini font-semibold border border-r-0 rounded-l-md bg-label border-gray-600 text-light focus:outline-none"
                 >
                   ATB
@@ -566,6 +598,7 @@
                 <input
                   class="block w-full flex-1 py-1.5 px-2.5 text-mini border rounded-none bg-input border-gray-600 placeholder-gray-400 text-light"
                   type="text"
+                  id="atb"
                 />
                 <input
                   class="block w-full flex-1 py-1.5 px-2.5 text-mini border rounded-none rounded-r-lg bg-input border-gray-600 placeholder-gray-400 text-light"
@@ -585,7 +618,7 @@
             </div>
             <div class="flex w-full min-w-min mt-4 pb-4">
               <label
-                htmlFor="clienteTelefono"
+                for="pendientes"
                 class="px-3 inline-flex items-center text-mini font-semibold border border-r-0 rounded-l-md bg-label border-gray-600 text-light focus:outline-none"
               >
                 Pendientes
@@ -593,16 +626,17 @@
               <input
                 class="block w-full flex-1 py-1.5 px-2.5 text-mini border rounded-none rounded-r-lg bg-input border-gray-600 placeholder-gray-400 text-light"
                 type="text"
+                id="pendientes"
               />
             </div>
             <div class="mb-4">
               <label
-                for="message"
+                for="Novedades"
                 class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                 >Novedades</label
               >
               <textarea
-                id="message"
+                id="Novedades"
                 rows="4"
                 class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                 placeholder="Redactar Novedades"
@@ -610,7 +644,7 @@
             </div>
           </div>
         </div>
-        <div class="bg-white rounded mt-4 shadow-lg w-full lg:col-span-3">
+        <div class="bg-gray-100 rounded mt-4 shadow-lg w-full lg:col-span-3">
           <div
             class="flex flex-col md:flex-row gap-y-1.5 md:gap-x-2 overflow-x-auto"
           >

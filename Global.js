@@ -2,26 +2,6 @@
 export var ContenedorPadre = "h-auto w-full px-2 ";
 //#endregion
 
-//#region Modal
-export var FondoModal =
-  "flex justify-center items-center fixed inset-0 z-50 outline-none bg-neutral-700/60 ";
-export var ModalContent =
-  "w-full h-full flex flex-col rounded-lg overflow-y-auto bg-gradient-to-b from-neutral-900 to-neutral-800 ";
-//Tamaños de Modal
-export var ModalFull = "h-full w-full ";
-export var ModalGrande = "h-full w-full lg:h-[85%] lg:max-w-7xl ";
-export var ModalMediano = "h-full w-full lg:h-[75%] max-h-full lg:max-w-4xl ";
-export var ModalPequeño = "h-full w-full md:h-fit md:max-w-2xl lg:max-w-3xl ";
-//Tamaños de Modal
-
-export var ModalHeader =
-  "flex items-center justify-between pt-3 pb-1.5 px-5 rounded-tt ";
-export var ModalBody = "h-full w-full overflow-y-auto overflow-x-hidden ";
-export var ModalFooter =
-  "flex items-center justify-end gap-x-2 py-2 px-6 rounded-bt ";
-export var Form = "w-full h-full py-1.5 px-5 ";
-//#endregion
-
 //#region Contendores Inputs
 export var ContenedorBasico =
   "grid gap-y-1.5 md:gap-y-2 md:gap-x-2 py-3 px-2 rounded-lg border border-gray-700 overflow-y-auto ";
@@ -74,8 +54,7 @@ export var Disabled = "!bg-gray-800/90 ";
 //#endregion
 
 //#region  Acordion
-export var AcordionUl =
-  "mb-2 border-b hover:bg-gray-700 cursor-pointer ";
+export var AcordionUl = "mb-2 border-b hover:bg-gray-700 cursor-pointer ";
 //#endregion
 
 //#region Titulos H
@@ -91,9 +70,6 @@ export var ContenedorBotones =
   "sticky top-2 z-20 flex items-center gap-2 bg-black/20";
 export var BotonModalBase =
   "px-3 py-2 text-sm font-semibold rounded-sm transition-all duration-150 uppercase ";
-export var BotonCerrarModal =
-  "text-light bg-gradient-to-b from-gray-500 to-gray-700 hover:bg-gradient-to-b hover:from-red-500 hover:to-red-700 focus:bg-gradient-to-b focus:from-red-500 focus:to-red-600 focus:border-blue-500 ";
-
 export var BotonBasico =
   "flex items-center justify-center text-mini font-semibold uppercase rounded-md outline-none overflow-hidden focus:outline-none ease-linear transition-all duration-150 text-light focus:bg-gradient-to-b focus:from-gray-500 focus:to-gray-700 focus:text-light focus:shadow ";
 export var BotonTexto =
@@ -117,78 +93,6 @@ export var BotonHeader =
   "bg-gradient-to-b from-yellow-400 to-yellow-600 hover:bg-gradient-to-b hover:from-yellow-300 hover:to-yellow-700 !text-gray-800 hover:!text-gray-900 focus:!text-light ";
 export var CerrarModal =
   "p-1 ml-auto bg-transparent border-0 hover:text-red-500 text-light float-right text-xl md:text-2xl leading-none font-semibold outline-none focus:outline-none ";
-
 export var BotonPassword =
   "absolute top-1/2 right-2 transform -translate-y-1/2 hover:cursor-pointer text-primary ";
-//#endregion
-
-//#region Tabla
-export var Table = "w-full text-light focus:outline-none";
-
-//#region Filas
-export var THeader =
-  "text-mini font-semibold text-left bg-gradient-to-b from-slate-700 to-slate-900 ";
-export var TBody = "text-mini bg-gradient-to-b from-input to-disabled ";
-export var Th = "px-1 py-1 md:py-2";
-export var Tr = "border-b border-gray-600 hover:bg-cyan-800 ";
-export var Td = "px-1 py-1 md:py-2 text-left select-none ";
-//#endregion
-
-//#region Botones Fila
-export var TablaBotonConsultar =
-  "w-4 mr-2 scale-110 transform hover:text-cyan-600 hover:scale-150";
-export var TablaBotonModificar =
-  "w-4 mr-2 transform hover:text-orange-600 hover:scale-150";
-export var TablaBotonEliminar =
-  "w-4 mr-2 transform hover:text-red-600 hover:scale-150";
-//#endregion
-
-//#region Footer
-
-export var ContenedorTablaFooter =
-  "min-h-min w-full p-2 flex flex-col sm:flex-row items-center justify-center sm:justify-between text-light ";
-export var ContenedorTotalPaginas =
-  "w-auto gap-x-5 flex items-center justify-between text-mini ";
-export var FooterTexto =
-  "text-center align-text-bottom text-sm font-bold uppercase";
-
-//#region Paginacion
-export var ContendorPaginacion =
-  "gap-y-1 sm:gap-y-0 gap-x-3 flex flex-col sm:flex-row items-center justify-center sm:justify-end flex-wrap text-mini ";
-export var ContendorBotonesPaginacion =
-  "w-auto flex items-center justify-center sm:justify-end flex-wrap ";
-export var BotonPaginacion =
-  "w-10 h-9 flex items-center justify-center text-sm !text-black font-bold ";
-export var BotonPaginacionActivo =
-  "!bg-transparent !bg-gradient-to-b !from-gray-700 !to-gray-600 !text-white ";
-//#endregion
-
-//#region Footer Detalle
-export var ContenedorFooter =
-  "flex flex-col overflow-x-auto border border-gray-200 bg-gradient-to-t from-input to-disabled ";
-export var FilaFooter =
-  "py-0.5 flex items-center justify-end border border-gray-400 ";
-export var FilaVacia = "w-full sm:px-5 flex items-center justify-end";
-export var FilaPrecio = "min-w-[180px] ";
-export var FilaImporte = "min-w-[90px] ";
-export var FilaInput = "min-w-[180px] pr-4 ";
-export var UltimaFila =
-  "w-auto px-2 sm:min-w-[75px] flex items-center justify-center";
-export var FilaContenido =
-  "pr-4 text-sm text-p-align-right font-semibold text-light ";
-export var FilaContenidoSelect =
-  "min-w-[45px] ml-2 bg-gray-700 rounded-md font-semibold ";
-export var FilaMovArticulo =
-  "min-w-[100px] flex items-center justify-end border border-gray-400 ";
-export var FilaContenidoMovArt =
-  "pr-4 text-p-align-right font-bold text-light ";
-//#endregion
-
-//#endregion
-
-//#endregion
-
-//#region Mensajes
-export var MensajeInformacion =
-  "Cualquier registro, modificación o eliminación de direcciones será guardado automáticamente en la base de datos, usar con precaución.";
 //#endregion
